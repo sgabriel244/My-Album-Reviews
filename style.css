@@ -6,10 +6,12 @@ body {
     background-color: silver;
 }
 
-p {
-    text-align: justify;
+p.intro {
+    text-align: center;
     font-size: 20px;
+    
 }
+
 /* Classe do texto para introdução da banda */
 .band-intro-message {
     text-align: center;
@@ -19,16 +21,26 @@ p {
     text-align: center;
 }
 
+
 /* Estilos para listas */ 
 ul {
     font-size: 20px;
+    list-style-type: none;
 }
 
 /* Estilos para links */
 a {
     text-decoration: none;
+    text-align: auto;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+/* Estilo para a linha que separa o conteúdo do menu principal */
+hr {
+    border: none;
+    border-top: 2px solid #000000; /* Cor e espessura da linha */
+    margin: 20px 0; /* Espaçamento acima e abaixo da linha */
 }
