@@ -31,11 +31,16 @@ ul {
 /* Estilos para links */
 a {
     text-decoration: none;
-    text-align: auto;
+    text-align: center;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+/* Alinhar os álbuns e links para o centro */
+.album {
+    text-align: center;
 }
 
 /* Estilo para a linha que separa o conteúdo do menu principal */
