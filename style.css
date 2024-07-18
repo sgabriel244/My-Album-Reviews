@@ -15,6 +15,7 @@ p.intro {
 /* Classe do texto para introdução da banda */
 .band-intro-message {
     text-align: center;
+    font-size: 20px;
 }
 /* Título principal centralizado */ 
 .main-title {
