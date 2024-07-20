@@ -22,13 +22,6 @@ p.intro {
     text-align: center;
 }
 
-
-/* Estilos para listas */ 
-ul {
-    font-size: 20px;
-    list-style-type: none;
-}
-
 /* Estilos para links */
 a {
     text-decoration: none;
@@ -39,9 +32,17 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Alinhar os álbuns e links para o centro */
-.album {
+/* Alinhar os álbuns para o centro */
+.band-image {
     text-align: center;
+}
+
+.album-cover {
+    text-align: center;
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    text-decoration: none;
 }
 
 /* Estilo para a linha que separa o conteúdo do menu principal */
