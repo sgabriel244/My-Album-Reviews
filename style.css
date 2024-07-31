@@ -45,6 +45,31 @@ a:hover {
     text-decoration: none;
 }
 
+
+/* Estilos para as páginas dos reviews */
+.album-review-image {
+    width: 280px;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.album-info {
+    font-size: 20px;
+    margin: 5px;
+    text-align: center;
+}
+
+.album-review-text {   
+    font-size: 22px;
+    text-align: center;
+}
+
+.song-link {
+    font-size: 20px;
+    text-align: center;
+}
+
 /* Estilo para a linha que separa o conteúdo do menu principal */
 hr {
     border: none;
